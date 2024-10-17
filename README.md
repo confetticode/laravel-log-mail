@@ -1,4 +1,14 @@
 
+![Laravel Log Mail](./banner.jpg)
+
+Supported PHP 8.1+ and Laravel 11+
+
+## Installation
+
+```
+composer require confetticode/laravel-log-mail
+```
+
 ## Usage
 
 Configure a mail channel.
@@ -43,20 +53,19 @@ try {
 }
 ```
 
-Use the mail channel as a part of the stack channel. 
+Use the mail channel as a part of the log stack. 
 
 ```plain
 LOG_STACK=daily,mail
 ```
 
-```php
-<?php
+## Contributing
 
-use Illuminate\Support\Facades\Log;
+Thank you for considering contributing to the `Laravel Log Mail` package!
+The contribution guide can be found in the [contributing documentation](https://github.com/confetticode/.github/blob/master/CONTRIBUTING.md).
 
-try {
-    new UndefinedClass;
-} catch (\Throwable $e) {
-    report($e); // The exception should be reported via both daily and mail channels.
-}
-```
+<div id="license"></div>
+
+## License (MIT)
+
+The MIT License (MIT). Please see the [License](./LICENSE.md) for more information.
