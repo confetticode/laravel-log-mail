@@ -1,0 +1,55 @@
+{
+    "name": "confetticode/laravel-log-mail",
+    "description": "Laravel - Sending log records via mail channels",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "confetticode",
+        "laravel",
+        "log",
+        "mail"
+    ],
+    "authors": [
+        {
+            "name": "ConfettiCode",
+            "email": "info@confetticode.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/mail": "^11.28",
+        "illuminate/support": "^11.28",
+        "monolog/monolog": "^3.7",
+        "symfony/mailer": "^7.1",
+        "symfony/mime": "^7.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.6",
+        "pestphp/pest": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ConfettiCode\\LaravelLog\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "ConfettiCode\\LaravelLog\\LogMailServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
