@@ -1,8 +1,8 @@
 # Laravel Log Mail
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/confetticode/laravel-log-mail.svg?style=flat-square)](https://packagist.org/packages/confetticode/laravel-log-mail)
-[![Test](https://img.shields.io/github/actions/workflow/status/confetticode/laravel-log-mail/test.yml?branch=master&label=tests&style=flat-square)](https://github.com/confetticode/laravel-log-mail/actions/workflows/test.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/confetticode/laravel-log-mail.svg?style=flat-square)](https://packagist.org/packages/confetticode/laravel-log-mail)
+[![Packagist](https://img.shields.io/packagist/v/confetticode/laravel-log-mail.svg?label=Packagist&style=flat-square)](https://packagist.org/packages/confetticode/laravel-log-mail)
+[![Test](https://img.shields.io/github/actions/workflow/status/confetticode/laravel-log-mail/test.yml?branch=main&label=Test&style=flat-square)](https://github.com/confetticode/laravel-log-mail/actions/workflows/test.yml)
+[![Downloads](https://img.shields.io/packagist/dt/confetticode/laravel-log-mail.svg?label=Downloads&style=flat-square)](https://packagist.org/packages/confetticode/laravel-log-mail)
 
 Supported PHP 8.2+ and Laravel 11+
 
