@@ -56,19 +56,14 @@ try {
 }
 ```
 
-Use the mail channel as a part of the log stack. 
+Use the mail channel as a part of the log stack.
 
 ```plain
 LOG_STACK=daily,mail
 ```
 
-## Contributing
-
-Thank you for considering contributing to the `Laravel Log Mail` package!
-The contribution guide can be found in the [contributing documentation](https://github.com/confetticode/.github/blob/master/CONTRIBUTING.md).
-
 <div id="license"></div>
 
 ## License (MIT)
 
-The MIT License (MIT). Please see the [License](./LICENSE.md) for more information.
+The `confetticode/laravel-log-mail` package is licensed under the [MIT license](./LICENSE.md).
